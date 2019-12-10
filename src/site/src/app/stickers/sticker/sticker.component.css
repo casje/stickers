@@ -1,0 +1,50 @@
+.div-sticker {
+    margin: 10px;
+    position: relative;
+    float: left;
+    width: 220px;
+    height: 280px;
+    text-align: center;
+    border: 1px solid #999999;
+}
+
+.div-sticker > h4 {
+    text-align: center;
+    font-size: 12pt;
+    margin-top: 10px;
+}
+
+.div-sticker > img {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+}
+
+.div-contador > span {
+    margin: 0;
+    font-size: 12pt;
+}
+
+.div-contador > button {
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+    padding: 0;
+    border: 1px solid;
+    border-radius: 20%;
+    font-weight: bold;
+    font-size: 14pt;
+    text-align: center;
+    text-align: center;
+}
+
+.btn-add {
+    background-color: green;
+    color: white;
+}
+
+.btn-rem {
+    background-color: rgb(138, 13, 13);
+    color: white;
+    border-color: 0px;
+}

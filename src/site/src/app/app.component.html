@@ -1,0 +1,17 @@
+<div class="wrapper">
+  <div class="div-header">
+    <h3>Stickers</h3>
+    <ul class="dropmenu">
+      <li>Novidades</li>
+      <li>Pedidos</li>
+      <li>Configuração</li>
+    </ul>
+  </div>
+  <div class="div-main">
+    <h3>Adesivos</h3>
+    <orb-sticker *ngFor="let item of adesivos" [price]="item.price" [ident]="item.ident" [image]="item.image" [title]="item.title"></orb-sticker>
+  </div>
+  <div class="div-footer cf">
+    <span>Angular - Lab for Stickers</span>
+  </div>
+</div>

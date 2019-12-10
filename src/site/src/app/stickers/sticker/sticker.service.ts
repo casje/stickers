@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { Sticker } from './sticker';
 
 const urlAPI = 'http://localhost:3000';
 
@@ -15,7 +16,7 @@ export class StickerService {
 
     listFromStickers() {
 
-        return this.http.get<Object[]>(urlAPI);
+        return this.http.get<Sticker[]>(urlAPI);
         /*
         const observable = this.http.get<Object[]>('http://localhost:3000');
         observable.subscribe(

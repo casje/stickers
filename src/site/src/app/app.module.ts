@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { StickersModule } from './stickers/stickers.module';
@@ -11,8 +10,7 @@ import { StickersModule } from './stickers/stickers.module';
   ],
   imports: [
     BrowserModule,
-    StickersModule,
-    HttpClientModule
+    StickersModule
   ],
   providers: [],
   bootstrap: [AppComponent]
